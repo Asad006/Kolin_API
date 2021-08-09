@@ -5,5 +5,5 @@ fun main() {
     val name = readLine()
     println("Who said it?")
     var respo = readLine()
-    println(java.lang.String.format("%s,says \" %s\" ",respo,name))
+    println(java.lang.String.format("%s,says \" %s\" ", respo, name))
 }
