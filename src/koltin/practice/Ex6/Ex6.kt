@@ -9,17 +9,10 @@ fun main() {
     if (retirmentAge != null && age != null) {
 
         println(
-            java.lang.String.format(
-                "You have %d years left until you can retire.",
-                retirmentAge.toInt() - age.toInt()
-            )
+            "You have ${retirmentAge.toInt() - age.toInt()} years left until you can retire."
         )
 
         println(
-            java.lang.String.format(
-                "It's 2021, so you can retire in %d.",
-                2021 + retirmentAge.toInt() - age.toInt()
-            )
-        )
+            "It's 2021, so you can retire in ${2021 + retirmentAge.toInt() - age.toInt()}.")
     }
 }
